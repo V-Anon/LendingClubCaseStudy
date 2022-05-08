@@ -1,48 +1,40 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> An attempt to use Exploratory Data Analysis techniques to identify the driving variables which are strong indicators that applicants of a loan has high chance to become defaulters. 
 
+## Summary
+The data set as well as data dictionary were collected and processed with necessary data cleaning steps. Non-impacting features were removed through this process and the rest of the features were analysed using Univariate, Bivariate, Segmented and Multivariate analysis. After each analysis, features those weren’t having significant influence of defaulter ratio were removed consecutively. From 115 potential features in the given dataset 7 driver variables that indicates possibility of loan default was identified and they were annual _inc, funded_amnt_inv, int_rate, term, grade, purpose,  and addr_state.
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+
+## Business Understanding
+- The business objective is to identify the risky loan applicants who are potential Defaults , and therefore  reducing sanctioning such loans so as to cut down the credit loss. These driving factors can be used for portfolio and risk assessment by the company.
+- There are Two Types of Risks: 
+a) Not sanctioning the loan when the applicant can repay, and hence loss of business.
+b) Sanctioning the loan when applicant can’t repay and hence, financial loss.
+- The scope of the project is to minimize only second type risk.
+- Two Types of Decision taken : a) Loan Accepted and b) Loan Rejected
+- Loan Rejected means no transactional history of applicants  hence its out of scope for this analysis.
+- Three loan statuses: Fully Paid – Applicant fully paid the loan, Charged Off – Applicant has not paid the loan and loan is default, Current – Applicant in process of paying instalment.
+- Current status loans are excluded as they can’t provide insight for the defined scope of project.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+Driver Variables that decide whether a loan will become default or not are
+- annual _inc
+- funded_amnt_inv
+- int_rate
+- term
+- grade
+- purpose
+- addr_state
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
-## Contact
-Created by [@githubusername] - feel free to contact me!
 
 
 <!-- Optional -->
